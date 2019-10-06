@@ -5,9 +5,9 @@
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="Blog of Jeevan Chand">
+    <meta name="description" content="How to debug SAPscripts in SAP">
     <meta name="author" content="Jeevan Chand">
-    <meta name="keywords" content="SAP,ERP,blog,ECC,HANA,FICO,SAP,SD,ERP,sapscripts,forms,ABAP">
+    <meta name="keywords" content="SAP,ERP,[&#39;sapscripts&#39;]">
     <meta http-equiv="Cache-control" content="public">
 
     <meta name="theme-color" content="#48a5ab">
@@ -20,7 +20,7 @@
     <link rel="stylesheet" href="/static/pygments.css">
     <link rel="stylesheet" href="/static/css/custom.css">
     <link rel='stylesheet' href='//fonts.googleapis.com/css?family=Raleway' type='text/css'>
-    <title>Blog — SAP-ERP</title>
+    <title>Debugging SAPscripts in SAP — SAP-ERP</title>
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-149361136-1"></script>
@@ -66,7 +66,6 @@
 
 
 
-
 <div class="blog-post">
   <a class="blog-post-title" href="/blog/debugging-sapscripts-in-sap/">
     <h1 class="blog-post-title">Debugging SAPscripts in SAP</h1>
@@ -75,8 +74,22 @@
   </p>
 
   
-  <p>To activate SAP Script debugger:
-<br><br><a href="/blog/debugging-sapscripts-in-sap/">Read Full Post</a></p>
+  <p>To activate SAP Script debugger:</p>
+<p>Step 1:</p>
+<pre><code>Go to Transaction SE38.
+Enter the program name RSTXDBUG
+</code></pre>
+<p><img src="/blog/debugging-sapscripts-in-sap/snap1.jpg" alt="snap1"></p>
+<pre><code>Press Execute.
+</code></pre>
+<p><img src="/blog/debugging-sapscripts-in-sap/script1.gif" alt="script1"></p>
+<p>Step 2:</p>
+<pre><code>Go to SE71.
+
+In the initial screen, Enter the form name and click on Utilities --&gt; Activate Debugger
+</code></pre>
+<p><img src="/blog/debugging-sapscripts-in-sap/script2.jpg" alt="script2"></p>
+<p><img src="/blog/debugging-sapscripts-in-sap/script1.gif" alt="script1"></p>
 
   
 
@@ -85,46 +98,35 @@
 
 
 
-<div style="padding: 3rem 0rem 0rem 0rem;"></div>
+  
+<br>
+
+<h3>Tags</h3>
+  <a href="/blog/tag/sapscripts/">sapscripts</a>&nbsp;&nbsp;
+  
 
 
-<div class="site-pagination">
-  
-  <a class="btn btn-secondary disabled btn-sm" href="#">Previous</a>
-  
-  <div class="btn btn-secondary disabled btn-sm">1</div>
-  
-  <a class="btn btn-secondary disabled btn-sm" href="#">Next</a>
-  
+<br><br>
+<h1>Comments</h1>
+<div class="comments">
+<div id="disqus_thread"></div>
+<script>
+  var disqus_config = function() { this.page.identifier = "/blog/debugging-sapscripts-in-sap"; this.page.url = "https://jeevanCd.github.io/blog/debugging-sapscripts-in-sap/"; };
+  (function() {
+    var d = document, s = d.createElement('script');
+    s.src = '//Jeevan.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+  })();
+</script>
+<noscript>
+  Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript"
+    rel="nofollow">comments powered by Disqus.</a>
+</noscript>
 </div>
-
-
 </div>
 <!-- END MAIN BODY -->
 
-<!-- SIDEBAR -->
-<aside class="col-md-3">
-    <div class="mb-3">
-        <h4>About</h4>
-        <img style="width: 350px; max-width: 100%;" alt="print('Jeevan Chand')"
-                    src="/static/img/jc.jpg">
-        <p class="mb-0">
-            SAP Technical Consultant <br>
-            Pythonista <br>
-            Blogger 
-        </p>
-    </div>
-
-    <div class="mb-3">
-        <h4>Follow Me</h4>
-        <ol class="list-unstyled">
-            <li><a href="https://www.linkedin.com/in/jeevan-chand-a3701412a/">LinkedIn</a></li>
-            <li><a href="https://github.com/JeevanCd">GitHub</a></li>
-            <li><a href="/feed.xml">RSS</a></li>
-        </ol>
-    </div>
-</aside>
-<!-- END SIDEBAR -->
 
 
             </div>

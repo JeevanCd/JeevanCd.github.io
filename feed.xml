@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title type="text">andrewshay.me</title>
+  <id>urn:uuid:f253909f-e02d-3277-acaa-f1e0cb0cfeab</id>
+  <updated>2019-10-06T00:00:00Z</updated>
+  <link href="https://jeevanCd.github.io/blog/" />
+  <link href="https://jeevanCd.github.io/feed.xml" rel="self" />
+  <author>
+    <name></name>
+  </author>
+  <subtitle type="text">Blog of Jeevan Chand</subtitle>
+  <generator uri="https://github.com/ajdavis/lektor-atom" version="0.3">Lektor Atom Plugin</generator>
+  <entry xml:base="https://jeevanCd.github.io/blog/login-to-sap-system/">
+    <title type="text">Login to SAP System</title>
+    <id>urn:uuid:b1a5bdee-3975-3c1b-b9a9-a224e01722b0</id>
+    <updated>2019-10-06T00:00:00Z</updated>
+    <link href="https://jeevanCd.github.io/blog/login-to-sap-system/" />
+    <author>
+      <name>Jeevan Chand</name>
+    </author>
+    <content type="html">&lt;p&gt;First find the SAP icon on the desktop.  &lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/blog/login-to-sap-system/logintosap1_thumb.png&quot; alt=&quot;logintosap1_thumb&quot;&gt;&lt;/p&gt;
+&lt;p&gt;Double click on the SAP icon.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/blog/login-to-sap-system/logintosap2_thumb.png&quot; alt=&quot;logintosap2_thumb&quot;&gt;&lt;/p&gt;
+&lt;p&gt;On the logon pad select the system you want to login to and press log on button.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/blog/login-to-sap-system/logintosap3_thumb.png&quot; alt=&quot;logintosap3_thumb&quot;&gt;&lt;/p&gt;
+&lt;p&gt;Enter Client, User, password and press enter.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/blog/login-to-sap-system/logintosap4_thumb.png&quot; alt=&quot;logintosap4_thumb&quot;&gt;&lt;/p&gt;
+&lt;p&gt;This is SAP easy access screen. All the tools required by ABAP developer is under the node Tools.&lt;/p&gt;
+</content>
+  </entry>
+  <entry xml:base="https://jeevanCd.github.io/blog/debugging-sapscripts-form-in-sap/">
+    <title type="text">Debugging SAPscripts form in SAP</title>
+    <id>urn:uuid:75b2272a-dd7d-3285-aa42-dc82afb03861</id>
+    <updated>2019-10-06T00:00:00Z</updated>
+    <link href="https://jeevanCd.github.io/blog/debugging-sapscripts-form-in-sap/" />
+    <author>
+      <name>Jeevan</name>
+    </author>
+    <content type="html">&lt;p&gt;To activate SAP Script debugger:&lt;/p&gt;
+&lt;p&gt;Step 1:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;Go to Transaction SE38.
+Enter the program name RSTXDBUG
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&quot;/blog/debugging-sapscripts-form-in-sap/snap1.jpg&quot; alt=&quot;snap1&quot;&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;Press Execute.
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&quot;/blog/debugging-sapscripts-form-in-sap/script1.gif&quot; alt=&quot;script1&quot;&gt;&lt;/p&gt;
+&lt;p&gt;Step 2:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;Go to SE71.
+
+In the initial screen, Enter the form name and click on Utilities --&amp;gt; Activate Debugger
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&quot;/blog/debugging-sapscripts-form-in-sap/script2.jpg&quot; alt=&quot;script2&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/blog/debugging-sapscripts-form-in-sap/script1.gif&quot; alt=&quot;script1&quot;&gt;&lt;/p&gt;
+</content>
+  </entry>
+</feed>
